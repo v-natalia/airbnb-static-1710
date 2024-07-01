@@ -1,0 +1,7 @@
+<div class="container">
+  <h2><%= @flat["name"] %></h2>
+  <p><%= @flat["price"] %> - <%= @flat["priceCurrency"] %></p>
+  <%= image_tag @flat["imageUrl"], alt: @flat["name"], height: 250 %>
+  <br>
+  <%= link_to "Back to Flats", root_path %>
+</div>
